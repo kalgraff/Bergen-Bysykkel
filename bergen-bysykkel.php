@@ -3,7 +3,7 @@
  * Plugin Name: Bergen Bysykkel
  * Plugin URI: https://github.com/kalgraff/Bergen-Bysykkel
  * Description: Displays availability of bikes and docks at Nykirken and St. Jakobs Plass stations from Bergen Bysykkel API.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Ove G. Kalgraff
  * Author URI: https://github.com/kalgraff
  * License: MIT
