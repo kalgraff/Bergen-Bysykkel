@@ -1,59 +1,59 @@
 # Bergen Bysykkel WordPress Plugin
 
-A WordPress plugin that displays real-time availability data for Bergen city bike stations. The plugin shows the number of available bikes and docks at Nykirken and St. Jakobs Plass stations, with color-coded status indicators.
+En WordPress-plugin som viser sanntidsinformasjon om tilgjengelighet av bysykler i Bergen. Pluginen viser antall ledige sykler og parkeringsplasser for stasjonene Nykirken og St. Jakobs Plass, med fargekodede statusindikatorer.
 
-## Features
+## Funksjoner
 
-- Displays real-time data from the official Bergen Bysykkel API
-- Shows available bikes and docks for Nykirken and St. Jakobs Plass stations
-- Color-coded status indicators (green, orange, red) based on availability
-- Available as both a widget and a shortcode
-- Responsive design that works on all devices
-- All styles contained in a single file for easy customization
+- Viser sanntidsdata fra den offisielle Bergen Bysykkel API
+- Viser ledige sykler og parkeringsplasser for stasjonene Nykirken og St. Jakobs Plass
+- Fargekodede statusindikatorer (grønn, oransje, rød) basert på tilgjengelighet
+- Tilgjengelig både som widget og shortcode
+- Responsivt design som fungerer på alle enheter
+- All styling er inkludert i én fil for enkel tilpasning
 
-## Installation
+## Installasjon
 
-1. Download the `bergen-bysykkel.zip` file
-2. Log in to your WordPress admin panel
-3. Go to Plugins → Add New → Upload Plugin
-4. Upload the zip file and activate the plugin
-5. The plugin is now ready to use
+1. Last ned `bergen-bysykkel.zip` filen
+2. Logg inn på WordPress-administrasjonspanelet
+3. Gå til Utvidelser → Legg til ny → Last opp utvidelse
+4. Last opp zip-filen og aktiver pluginen
+5. Pluginen er nå klar til bruk
 
-## Usage
+## Bruk
 
 ### Widget
 
-1. Go to Appearance → Widgets
-2. Drag the "Bergen Bysykkel" widget to your desired widget area
-3. Customize the widget title if needed
-4. Save your changes
+1. Gå til Utseende → Widgeter
+2. Dra "Bergen Bysykkel" widgeten til ønsket widget-område
+3. Tilpass widget-tittelen om ønskelig
+4. Lagre endringene
 
 ### Shortcode
 
-Add the following shortcode to any page or post:
+Legg til følgende shortcode på enhver side eller innlegg:
 
 ```
 [bergen_bysykkel]
 ```
 
-## Technical Details
+## Tekniske detaljer
 
-- The plugin fetches data from the Bergen Bysykkel GBFS API
-- Data is refreshed each time the page loads
-- Color indicators change based on percentage of availability:
-  - Green: More than 50% available
-  - Orange: Between 20% and 50% available
-  - Red: Less than 20% available
+- Pluginen henter data fra Bergen Bysykkel GBFS API
+- Data oppdateres hver gang siden lastes
+- Fargeindikatorene endres basert på prosentvis tilgjengelighet:
+  - Grønn: Mer enn 50% tilgjengelig
+  - Oransje: Mellom 20% og 50% tilgjengelig
+  - Rød: Mindre enn 20% tilgjengelig
 
-## Requirements
+## Systemkrav
 
-- WordPress 5.0 or higher
-- PHP 7.0 or higher
+- WordPress 5.0 eller høyere
+- PHP 7.0 eller høyere
 
-## Developer
+## Utvikler
 
-Created by Ove G. Kalgraff
+Laget av Ove G. Kalgraff
 
-## License
+## Lisens
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Dette prosjektet er lisensiert under MIT-lisensen - se LICENSE-filen for detaljer.
